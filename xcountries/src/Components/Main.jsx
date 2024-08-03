@@ -17,7 +17,7 @@ const Main = () => {
         fetchData();
     },[])
   return (
-    <div style={{display:"flex",flexWrap:'wrap',alignItems:'center',justifyContent:'space-between'}}>
+    <div style={{display:"flex",flexWrap:'wrap',alignItems:'center',justifyContent:'space-between',textAlign:"center"}}>
     {
         data.map((item)=>{
             return (
